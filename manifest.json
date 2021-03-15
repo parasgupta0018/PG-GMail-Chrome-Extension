@@ -1,0 +1,38 @@
+{
+    "name": "PG Mailer",
+    "version": "1.0",
+    "description": "Opens your Gmail mails of your current Accounts",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "pgmail16.png",
+            "48": "pgmail48.png",
+            "128": "pgmail128.png"
+        },
+        "default_title": "PG Mailer"
+    },
+    "icons": {
+        "16": "pgmail16.png",
+        "48": "pgmail48.png",
+        "128": "pgmail128.png"
+    },
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+G",
+                "mac": "MacCtrl+Shift+G"
+            },
+            "description": "Opens popup.html"
+        }
+    },
+    "options_page": "options.html",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage",
+        "notifications",
+        "tabs"
+    ]
+}

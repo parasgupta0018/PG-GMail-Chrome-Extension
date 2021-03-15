@@ -1,0 +1,55 @@
+.note {
+    font-style: italic;
+    color: gray;
+    font-size: 13px;
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    /* padding-left: 10px; */
+}
+
+#none {
+    margin-top: 20px;
+    text-align: center;
+}
+
+body {
+    height: 200px;
+    overflow: hidden;
+}
+
+.profile-pic {
+    height: 36px;
+    width: 36px;
+    border-radius: 36px;
+    margin: 5;
+}
+
+.col-wid {
+    width: 76px;
+}
+
+.list-group-item:hover {
+    background-color: rgb(243, 240, 240);
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+* {
+    box-sizing: unset;
+}
+
+.row {
+    flex-wrap: nowrap;
+}
+
+.user-icon {
+    border-radius: 50%;
+}
+
+.account-email {
+    font-size: 13px;
+    font-style: italic;
+}
